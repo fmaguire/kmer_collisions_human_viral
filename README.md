@@ -32,6 +32,8 @@ Run:
 ## Compare K-mer Count Hashes
 
 Using the K-mer Analysis Toolkit (KAT) compare all the viral vs human hashes for each k-mer size.
+Note: KAT can run jellyfish directly but given the difference in size between the genomes it was easier
+to separate this stage of the analysis.
 
 Run:
     
