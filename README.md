@@ -3,6 +3,13 @@
 Investigation of k-mer collisions between human and viral reference.
 Using the `GChr_38_no_alt` and `MN908947_3.fasta`
 
+## Install Dependencies
+
+Using conda/mamba run:
+
+    mamba create --file env.yaml 
+    conda activate kmer_collision
+
 ## Get Data
 
 Run:
