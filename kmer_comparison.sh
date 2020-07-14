@@ -8,6 +8,6 @@ do
     jellyfish count -m $k -s 50M -t 2 -o data/kmer_comparison/viral_${k}.jf data/MN908947.3.fasta &
     wait
 
-    kat comp -t 12 -o data/kmer_comparison/${k}_human_viral.txt
+    kat comp -t 12 -o data/kmer_comparison/${k}_human_viral.txt data/kmer_comparison/human_${k}.jf data/kmer_comparison/viral_${k}.jf
     rm data/kmer_comparison/human_${k}.jf data/kmer_comparison/viral_${k}.jf
 done
