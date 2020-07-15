@@ -1,0 +1,39 @@
+K-mer statistics for: 
+ - Hash 1: "data/kmer_comparison/human_25.jf"
+ - Hash 2: "data/kmer_comparison/viral_25.jf"
+
+Total K-mers in: 
+ - Hash 1: 2934849080
+ - Hash 2: 29879
+
+Distinct K-mers in:
+ - Hash 1: 2441435080
+ - Hash 2: 29871
+
+Total K-mers only found in:
+ - Hash 1: 2934670223
+ - Hash 2: 29860
+
+Distinct K-mers only found in:
+ - Hash 1: 2441435071
+ - Hash 2: 29860
+
+Shared K-mers:
+ - Total shared found in hash 1: 178857
+ - Total shared found in hash 2: 17
+ - Distinct shared K-mers: 9
+
+Distance between spectra 1 and 2 (all k-mers):
+ - Manhattan distance: 2.44141e+09
+ - Euclidean distance: 2.36416e+09
+ - Cosine distance: 0.00019512
+ - Canberra distance: 1000
+ - Jaccard distance: 0.999988
+
+Distance between spectra 1 and 2 (shared k-mers):
+ - Manhattan distance: 18
+ - Euclidean distance: 8.94427
+ - Cosine distance: 1
+ - Canberra distance: 9
+ - Jaccard distance: 1
+
