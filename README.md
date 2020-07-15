@@ -34,3 +34,13 @@ Run:
     
     kmer_comparison.sh
 
+## Generate Plots
+
+See notebook:
+
+    host_virus_kmer_collisions.ipynb
+
+ For parsing of KAT output and generation of plots: 
+    
+    distinct_shared_kmers.png
+    total_shared_kmers.png
